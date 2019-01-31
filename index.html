@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chaptizer</title>
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+<body>
+   <nav>
+<div class="container">
+  <img src="imgs/logo.png" alt="MaxAB">
+ 
+  <ul>
+    <li><a href="#">chaptizer</a></li>
+    <li><a href="./Schedule.html">schedule</a></li>
+  </ul>
+  <div class="clrFloat"></div>
+</div>
+
+    </nav>
+    
+    <div class="form-container">
+
+<form action="./MaxAB.php" method="get">
+
+  <div class="inputGroup">
+  <label for="startingDate">Starting Date :</label>
+  <br>
+<input class="inputField" id=starting-date type="date" name="startingDate">
+</div>
+<div class="inputGroup">
+  <label for="days">How many day Can you read :</label>
+  <br>
+  <div class="inputField">
+
+  <input type="checkbox" name='days[]'  value="1">Saturday <br>
+  <input type="checkbox" name="days[]" value="2">Sunday <br>
+  <input type="checkbox" name="days[]" value="3">Monday <br>
+  <input type="checkbox" name="days[]" value="4">Tuesday <br>
+  <input type="checkbox" name="days[]" value="5">Wednesday <br>
+  <input type="checkbox" name="days[]" value="6">Thursday <br>
+  <input type="checkbox" name="days[]" value="7">Friday <br>
+</div>
+</div>
+<div class="inputGroup">
+  <label for="capacity">How many day required to finish 1 chapter :</label>
+  <br>
+  <input class="inputField" type="number" name="capacity">
+</div>
+<input type="submit" value="Submit" class="btn">
+<div class="clrFloat"></div>
+</form>
+</div>
+<footer>
+    <div>
+        <p>All rights reserved to Mohamed Hosny</p>
+    </div>
+</footer>
+
+</body>
+</html>
